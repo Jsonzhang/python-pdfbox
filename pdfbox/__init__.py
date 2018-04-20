@@ -12,9 +12,9 @@ import urllib.request
 import appdirs
 import sarge
 
-pdfbox_version = '2.0.8'
+pdfbox_version = '2.0.9'
 pdfbox_url = 'https://www.apache.org/dist/pdfbox/{version}/pdfbox-app-{version}.jar'.format(version=pdfbox_version)
-md5_url = 'https://www.apache.org/dist/pdfbox/{version}/pdfbox-app-{version}.jar.md5'.format(version=pdfbox_version)
+md5_url = 'https://www.apache.org/dist/pdfbox/{version}/pdfbox-app-{version}.jar.sha512'.format(version=pdfbox_version)
 
 class PDFBox(object):
     """
